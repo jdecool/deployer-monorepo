@@ -1,0 +1,28 @@
+{
+    "name": "jdecool/deployer-monorepo",
+    "type": "library",
+    "description": "Deployer recipes to manage monorepository project deployment",
+    "license": "MIT",
+    "homepage": "https://github.com/jdecool/deployer-monorepo",
+    "keywords": [
+        "deployer",
+        "recipes",
+        "deploy",
+        "deployment",
+        "monorepo"
+    ],
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "deployer/deployer": "^6.0"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    }
+}
